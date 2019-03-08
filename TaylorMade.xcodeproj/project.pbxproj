@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3051D6A82232C0E5003B6BB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3051D6A72232C0E5003B6BB8 /* AppDelegate.swift */; };
+		3051D6AF2232C0E6003B6BB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3051D6AE2232C0E6003B6BB8 /* Assets.xcassets */; };
+		3051D6B22232C0E6003B6BB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3051D6B02232C0E6003B6BB8 /* LaunchScreen.storyboard */; };
+		3051D6BD2232C0E6003B6BB8 /* TaylorMadeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3051D6BC2232C0E6003B6BB8 /* TaylorMadeTests.swift */; };
+		3051D6C82232C0E6003B6BB8 /* TaylorMadeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3051D6C72232C0E6003B6BB8 /* TaylorMadeUITests.swift */; };
+		3051D6D62232C18B003B6BB8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3051D6D52232C18B003B6BB8 /* MainViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3051D6B92232C0E6003B6BB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3051D69C2232C0E5003B6BB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3051D6A32232C0E5003B6BB8;
+			remoteInfo = TaylorMade;
+		};
+		3051D6C42232C0E6003B6BB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3051D69C2232C0E5003B6BB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3051D6A32232C0E5003B6BB8;
+			remoteInfo = TaylorMade;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3051D6A42232C0E5003B6BB8 /* TaylorMade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaylorMade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3051D6A72232C0E5003B6BB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3051D6AE2232C0E6003B6BB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3051D6B12232C0E6003B6BB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3051D6B32232C0E6003B6BB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3051D6B82232C0E6003B6BB8 /* TaylorMadeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaylorMadeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3051D6BC2232C0E6003B6BB8 /* TaylorMadeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaylorMadeTests.swift; sourceTree = "<group>"; };
+		3051D6BE2232C0E6003B6BB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3051D6C32232C0E6003B6BB8 /* TaylorMadeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaylorMadeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3051D6C72232C0E6003B6BB8 /* TaylorMadeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaylorMadeUITests.swift; sourceTree = "<group>"; };
+		3051D6C92232C0E6003B6BB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3051D6D52232C18B003B6BB8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3051D6A12232C0E5003B6BB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3051D6B52232C0E6003B6BB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3051D6C02232C0E6003B6BB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3051D69B2232C0E5003B6BB8 = {
+			isa = PBXGroup;
+			children = (
+				3051D6A62232C0E5003B6BB8 /* TaylorMade */,
+				3051D6BB2232C0E6003B6BB8 /* TaylorMadeTests */,
+				3051D6C62232C0E6003B6BB8 /* TaylorMadeUITests */,
+				3051D6A52232C0E5003B6BB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3051D6A52232C0E5003B6BB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3051D6A42232C0E5003B6BB8 /* TaylorMade.app */,
+				3051D6B82232C0E6003B6BB8 /* TaylorMadeTests.xctest */,
+				3051D6C32232C0E6003B6BB8 /* TaylorMadeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3051D6A62232C0E5003B6BB8 /* TaylorMade */ = {
+			isa = PBXGroup;
+			children = (
+				3051D6A72232C0E5003B6BB8 /* AppDelegate.swift */,
+				3051D6AE2232C0E6003B6BB8 /* Assets.xcassets */,
+				3051D6B02232C0E6003B6BB8 /* LaunchScreen.storyboard */,
+				3051D6B32232C0E6003B6BB8 /* Info.plist */,
+				3051D6D52232C18B003B6BB8 /* MainViewController.swift */,
+			);
+			path = TaylorMade;
+			sourceTree = "<group>";
+		};
+		3051D6BB2232C0E6003B6BB8 /* TaylorMadeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3051D6BC2232C0E6003B6BB8 /* TaylorMadeTests.swift */,
+				3051D6BE2232C0E6003B6BB8 /* Info.plist */,
+			);
+			path = TaylorMadeTests;
+			sourceTree = "<group>";
+		};
+		3051D6C62232C0E6003B6BB8 /* TaylorMadeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3051D6C72232C0E6003B6BB8 /* TaylorMadeUITests.swift */,
+				3051D6C92232C0E6003B6BB8 /* Info.plist */,
+			);
+			path = TaylorMadeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3051D6A32232C0E5003B6BB8 /* TaylorMade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3051D6CC2232C0E6003B6BB8 /* Build configuration list for PBXNativeTarget "TaylorMade" */;
+			buildPhases = (
+				3051D6A02232C0E5003B6BB8 /* Sources */,
+				3051D6A12232C0E5003B6BB8 /* Frameworks */,
+				3051D6A22232C0E5003B6BB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaylorMade;
+			productName = TaylorMade;
+			productReference = 3051D6A42232C0E5003B6BB8 /* TaylorMade.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3051D6B72232C0E6003B6BB8 /* TaylorMadeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3051D6CF2232C0E6003B6BB8 /* Build configuration list for PBXNativeTarget "TaylorMadeTests" */;
+			buildPhases = (
+				3051D6B42232C0E6003B6BB8 /* Sources */,
+				3051D6B52232C0E6003B6BB8 /* Frameworks */,
+				3051D6B62232C0E6003B6BB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3051D6BA2232C0E6003B6BB8 /* PBXTargetDependency */,
+			);
+			name = TaylorMadeTests;
+			productName = TaylorMadeTests;
+			productReference = 3051D6B82232C0E6003B6BB8 /* TaylorMadeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3051D6C22232C0E6003B6BB8 /* TaylorMadeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3051D6D22232C0E6003B6BB8 /* Build configuration list for PBXNativeTarget "TaylorMadeUITests" */;
+			buildPhases = (
+				3051D6BF2232C0E6003B6BB8 /* Sources */,
+				3051D6C02232C0E6003B6BB8 /* Frameworks */,
+				3051D6C12232C0E6003B6BB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3051D6C52232C0E6003B6BB8 /* PBXTargetDependency */,
+			);
+			name = TaylorMadeUITests;
+			productName = TaylorMadeUITests;
+			productReference = 3051D6C32232C0E6003B6BB8 /* TaylorMadeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3051D69C2232C0E5003B6BB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = TaylorMade;
+				TargetAttributes = {
+					3051D6A32232C0E5003B6BB8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3051D6B72232C0E6003B6BB8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3051D6A32232C0E5003B6BB8;
+					};
+					3051D6C22232C0E6003B6BB8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3051D6A32232C0E5003B6BB8;
+					};
+				};
+			};
+			buildConfigurationList = 3051D69F2232C0E5003B6BB8 /* Build configuration list for PBXProject "TaylorMade" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3051D69B2232C0E5003B6BB8;
+			productRefGroup = 3051D6A52232C0E5003B6BB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3051D6A32232C0E5003B6BB8 /* TaylorMade */,
+				3051D6B72232C0E6003B6BB8 /* TaylorMadeTests */,
+				3051D6C22232C0E6003B6BB8 /* TaylorMadeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3051D6A22232C0E5003B6BB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3051D6B22232C0E6003B6BB8 /* LaunchScreen.storyboard in Resources */,
+				3051D6AF2232C0E6003B6BB8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3051D6B62232C0E6003B6BB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3051D6C12232C0E6003B6BB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3051D6A02232C0E5003B6BB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3051D6A82232C0E5003B6BB8 /* AppDelegate.swift in Sources */,
+				3051D6D62232C18B003B6BB8 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3051D6B42232C0E6003B6BB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3051D6BD2232C0E6003B6BB8 /* TaylorMadeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3051D6BF2232C0E6003B6BB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3051D6C82232C0E6003B6BB8 /* TaylorMadeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3051D6BA2232C0E6003B6BB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3051D6A32232C0E5003B6BB8 /* TaylorMade */;
+			targetProxy = 3051D6B92232C0E6003B6BB8 /* PBXContainerItemProxy */;
+		};
+		3051D6C52232C0E6003B6BB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3051D6A32232C0E5003B6BB8 /* TaylorMade */;
+			targetProxy = 3051D6C42232C0E6003B6BB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3051D6B02232C0E6003B6BB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3051D6B12232C0E6003B6BB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3051D6CA2232C0E6003B6BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3051D6CB2232C0E6003B6BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3051D6CD2232C0E6003B6BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7R36SCBDN;
+				INFOPLIST_FILE = TaylorMade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.taylormade.TaylorMade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3051D6CE2232C0E6003B6BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7R36SCBDN;
+				INFOPLIST_FILE = TaylorMade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.taylormade.TaylorMade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3051D6D02232C0E6003B6BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7R36SCBDN;
+				INFOPLIST_FILE = TaylorMadeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.taylormade.TaylorMadeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaylorMade.app/TaylorMade";
+			};
+			name = Debug;
+		};
+		3051D6D12232C0E6003B6BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7R36SCBDN;
+				INFOPLIST_FILE = TaylorMadeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.taylormade.TaylorMadeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaylorMade.app/TaylorMade";
+			};
+			name = Release;
+		};
+		3051D6D32232C0E6003B6BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7R36SCBDN;
+				INFOPLIST_FILE = TaylorMadeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.taylormade.TaylorMadeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaylorMade;
+			};
+			name = Debug;
+		};
+		3051D6D42232C0E6003B6BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7R36SCBDN;
+				INFOPLIST_FILE = TaylorMadeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.taylormade.TaylorMadeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaylorMade;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3051D69F2232C0E5003B6BB8 /* Build configuration list for PBXProject "TaylorMade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3051D6CA2232C0E6003B6BB8 /* Debug */,
+				3051D6CB2232C0E6003B6BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3051D6CC2232C0E6003B6BB8 /* Build configuration list for PBXNativeTarget "TaylorMade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3051D6CD2232C0E6003B6BB8 /* Debug */,
+				3051D6CE2232C0E6003B6BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3051D6CF2232C0E6003B6BB8 /* Build configuration list for PBXNativeTarget "TaylorMadeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3051D6D02232C0E6003B6BB8 /* Debug */,
+				3051D6D12232C0E6003B6BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3051D6D22232C0E6003B6BB8 /* Build configuration list for PBXNativeTarget "TaylorMadeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3051D6D32232C0E6003B6BB8 /* Debug */,
+				3051D6D42232C0E6003B6BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3051D69C2232C0E5003B6BB8 /* Project object */;
+}
