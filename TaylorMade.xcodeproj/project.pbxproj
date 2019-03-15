@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2464D76A6A62A7A5A4430837 /* Pods_TaylorMadeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF193A71A140BC72ED790142 /* Pods_TaylorMadeUITests.framework */; };
 		3051D6A82232C0E5003B6BB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3051D6A72232C0E5003B6BB8 /* AppDelegate.swift */; };
 		3051D6AF2232C0E6003B6BB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3051D6AE2232C0E6003B6BB8 /* Assets.xcassets */; };
 		3051D6B22232C0E6003B6BB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3051D6B02232C0E6003B6BB8 /* LaunchScreen.storyboard */; };
 		3051D6BD2232C0E6003B6BB8 /* TaylorMadeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3051D6BC2232C0E6003B6BB8 /* TaylorMadeTests.swift */; };
 		3051D6C82232C0E6003B6BB8 /* TaylorMadeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3051D6C72232C0E6003B6BB8 /* TaylorMadeUITests.swift */; };
 		3051D6D62232C18B003B6BB8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3051D6D52232C18B003B6BB8 /* MainViewController.swift */; };
+		50C2EF5DD02307EB20ED43C9 /* Pods_TaylorMade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FD66602963EE8C6CBF02BE /* Pods_TaylorMade.framework */; };
+		78560C7F062658DD2593375F /* Pods_TaylorMadeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839038C7A6C2C604BFC6C4F5 /* Pods_TaylorMadeTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,15 @@
 		3051D6C72232C0E6003B6BB8 /* TaylorMadeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaylorMadeUITests.swift; sourceTree = "<group>"; };
 		3051D6C92232C0E6003B6BB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3051D6D52232C18B003B6BB8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		469C896669567D14D4DFAF8B /* Pods-TaylorMadeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaylorMadeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaylorMadeTests/Pods-TaylorMadeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		804EAF92041DA2F008BBBAB3 /* Pods-TaylorMadeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaylorMadeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaylorMadeTests/Pods-TaylorMadeTests.release.xcconfig"; sourceTree = "<group>"; };
+		839038C7A6C2C604BFC6C4F5 /* Pods_TaylorMadeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaylorMadeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FD8CC229ADC5921A5055BDE /* Pods-TaylorMadeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaylorMadeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaylorMadeUITests/Pods-TaylorMadeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		97BE8A4859F78CC4C36959E5 /* Pods-TaylorMade.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaylorMade.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaylorMade/Pods-TaylorMade.release.xcconfig"; sourceTree = "<group>"; };
+		AF193A71A140BC72ED790142 /* Pods_TaylorMadeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaylorMadeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1CAE90FB59DFF056303B617 /* Pods-TaylorMadeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaylorMadeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaylorMadeUITests/Pods-TaylorMadeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BEC9CDD5B1D07F2192275110 /* Pods-TaylorMade.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaylorMade.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaylorMade/Pods-TaylorMade.debug.xcconfig"; sourceTree = "<group>"; };
+		C9FD66602963EE8C6CBF02BE /* Pods_TaylorMade.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaylorMade.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50C2EF5DD02307EB20ED43C9 /* Pods_TaylorMade.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78560C7F062658DD2593375F /* Pods_TaylorMadeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2464D76A6A62A7A5A4430837 /* Pods_TaylorMadeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +94,8 @@
 				3051D6BB2232C0E6003B6BB8 /* TaylorMadeTests */,
 				3051D6C62232C0E6003B6BB8 /* TaylorMadeUITests */,
 				3051D6A52232C0E5003B6BB8 /* Products */,
+				94325AFA55F1D0006B100183 /* Pods */,
+				EBEF8E91E9D366E388943E5E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +139,29 @@
 			path = TaylorMadeUITests;
 			sourceTree = "<group>";
 		};
+		94325AFA55F1D0006B100183 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEC9CDD5B1D07F2192275110 /* Pods-TaylorMade.debug.xcconfig */,
+				97BE8A4859F78CC4C36959E5 /* Pods-TaylorMade.release.xcconfig */,
+				469C896669567D14D4DFAF8B /* Pods-TaylorMadeTests.debug.xcconfig */,
+				804EAF92041DA2F008BBBAB3 /* Pods-TaylorMadeTests.release.xcconfig */,
+				B1CAE90FB59DFF056303B617 /* Pods-TaylorMadeUITests.debug.xcconfig */,
+				8FD8CC229ADC5921A5055BDE /* Pods-TaylorMadeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EBEF8E91E9D366E388943E5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9FD66602963EE8C6CBF02BE /* Pods_TaylorMade.framework */,
+				839038C7A6C2C604BFC6C4F5 /* Pods_TaylorMadeTests.framework */,
+				AF193A71A140BC72ED790142 /* Pods_TaylorMadeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,6 +169,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3051D6CC2232C0E6003B6BB8 /* Build configuration list for PBXNativeTarget "TaylorMade" */;
 			buildPhases = (
+				5FFCDFDB3069C481C4C86A60 /* [CP] Check Pods Manifest.lock */,
 				3051D6A02232C0E5003B6BB8 /* Sources */,
 				3051D6A12232C0E5003B6BB8 /* Frameworks */,
 				3051D6A22232C0E5003B6BB8 /* Resources */,
@@ -146,6 +187,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3051D6CF2232C0E6003B6BB8 /* Build configuration list for PBXNativeTarget "TaylorMadeTests" */;
 			buildPhases = (
+				70556D398192C4848A4343EC /* [CP] Check Pods Manifest.lock */,
 				3051D6B42232C0E6003B6BB8 /* Sources */,
 				3051D6B52232C0E6003B6BB8 /* Frameworks */,
 				3051D6B62232C0E6003B6BB8 /* Resources */,
@@ -164,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3051D6D22232C0E6003B6BB8 /* Build configuration list for PBXNativeTarget "TaylorMadeUITests" */;
 			buildPhases = (
+				96EA98DE6AFDA5BC33929C49 /* [CP] Check Pods Manifest.lock */,
 				3051D6BF2232C0E6003B6BB8 /* Sources */,
 				3051D6C02232C0E6003B6BB8 /* Frameworks */,
 				3051D6C12232C0E6003B6BB8 /* Resources */,
@@ -246,6 +289,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5FFCDFDB3069C481C4C86A60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaylorMade-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70556D398192C4848A4343EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaylorMadeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96EA98DE6AFDA5BC33929C49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaylorMadeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3051D6A02232C0E5003B6BB8 /* Sources */ = {
@@ -418,6 +530,7 @@
 		};
 		3051D6CD2232C0E6003B6BB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEC9CDD5B1D07F2192275110 /* Pods-TaylorMade.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -436,6 +549,7 @@
 		};
 		3051D6CE2232C0E6003B6BB8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97BE8A4859F78CC4C36959E5 /* Pods-TaylorMade.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +568,7 @@
 		};
 		3051D6D02232C0E6003B6BB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 469C896669567D14D4DFAF8B /* Pods-TaylorMadeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +590,7 @@
 		};
 		3051D6D12232C0E6003B6BB8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 804EAF92041DA2F008BBBAB3 /* Pods-TaylorMadeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -496,6 +612,7 @@
 		};
 		3051D6D32232C0E6003B6BB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1CAE90FB59DFF056303B617 /* Pods-TaylorMadeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -516,6 +633,7 @@
 		};
 		3051D6D42232C0E6003B6BB8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FD8CC229ADC5921A5055BDE /* Pods-TaylorMadeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
